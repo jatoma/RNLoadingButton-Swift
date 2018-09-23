@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/souzainf3/RNLoadingButton-Swift.git", :tag => s.version.to_s }
 
-  s.source_files  = "RNLoadingButton/*"
+  s.source_files  = "RNLoadingButton/*.{swift}"
   s.frameworks = "UIKit"
   s.requires_arc = true
 end
